@@ -613,11 +613,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
 
     w.getClickBeforeImage = function() {
-        $('#click-before-image').click();
+        $('#flag.jpg').click();
     }
 
     w.saveClickBeforeImage = function() {
-        const img = document.getElementById('click-before-image');
+        const img = document.getElementById('flag.jpg');
         saveImage(img, r => {
             clickBeforeStyle.html(`
                 .t1, .t2, .t3, .t4, .t5 {
@@ -628,11 +628,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     w.getClickAfterImage = function() {
-        $('#click-after-image').click();
+        $('unnamed (2).png').click();
     }
 
     w.saveClickAfterImage = function() {
-        const img = document.getElementById('click-after-image');
+        const img = document.getElementById('unnamed (2).png');
         saveImage(img, r => {
             clickAfterStyle.html(`
                 .tt1, .tt2, .tt3, .tt4, .tt5 {
