@@ -617,7 +617,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     w.saveClickBeforeImage = function() {
-        const img = document.getElementById('#ClickBefore.jpg');
+        const img = document.getElementById('ClickBefore.jpg');
         saveImage(img, r => {
             clickBeforeStyle.html(`
                 .t1, .t2, .t3, .t4, .t5 {
@@ -632,7 +632,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     w.saveClickAfterImage = function() {
-        const img = document.getElementById('#ClickAfter.png');
+        const img = document.getElementById('ClickAfter.png');
         saveImage(img, r => {
             clickAfterStyle.html(`
                 .tt1, .tt2, .tt3, .tt4, .tt5 {
