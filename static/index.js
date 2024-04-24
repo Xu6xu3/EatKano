@@ -182,15 +182,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
     function gameInit() {
         createjs.Sound.registerSound({
-            src: "./static/music/err.mp3",
+            src: "./static/music/onlymp3.to - 中華民國國旗歌 National Banner Song of the Republic of China-wPiPgvZjNtg-192k-1691336436(2).mp3",
             id: "err"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/end.mp3",
+            src: "./static/music/onlymp3.to - 中華人民共和国国歌 義勇軍行進曲 March of the Volunteers -7wvyITD2stg-192k-1691336184(4).mp3",
             id: "end"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/tap.mp3",
+            src: "./static/music/onlymp3.to - 中華人民共和国国歌 義勇軍行進曲 March of the Volunteers -7wvyITD2stg-192k-1691336184(3).mp3",
             id: "tap"
         });
         gameRestart();
